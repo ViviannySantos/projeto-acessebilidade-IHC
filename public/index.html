@@ -22,26 +22,29 @@
     <title>Enem Noticias</title>
 </head>
 
-<body>
+<body id="topo">
 
-    <nav class="navbar bg-light">
+    <nav class="navbar bg-light" id="barraDeNavegacao">
         <div class="row">
             <div class="col-sm">
-                <a class="navbar-brand title-font" href="#">Enem Noticias</a>
+                <a href="#main" class="hidden"></a>
+                <a href="#noticia" accesskey="n" class="hidden"></a>
+                <a href="#menu" accesskey="m" class="hidden"></a>
+                <a class="navbar-brand title-font" href="index.html" ><h1>Enem Noticias</h1></a>
             </div>
-            <div class="col-sm">
+            <div class="col-sm" id="menu">
                 <ul class="nav justify-content-center title-font">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#topo" accesskey="t">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ultimas</a>
+                        <a class="nav-link" href="index2.html">Ultimas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gabaritos</a>
+                        <a class="nav-link" href="index3.html">Gabaritos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Categorias</a>
+                        <a class="nav-link" href="index4.html">Categorias</a>
                     </li>
                 </ul>
             </div>
@@ -60,44 +63,43 @@
 
         </div>
 
-    <div class="container ">
+    <div class="container" id="main">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm" id="noticia">
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h4 class="card-title">Enem 2017: Notas divulgadas</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <h2 class="card-title">Enem 2017: Notas divulgadas</h2>
+                        <h3 class="card-subtitle mb-2 text-muted">Card subtitle</h3>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <a href="index5.html" class="card-link">Veja mais<span class="hidden"> Enem 2017: Notas divulgadas</span></a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm" id="noticia">
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h4 class="card-title">Gabarito Enem 2017 já disponivel</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <h2 class="card-title">Gabarito Enem 2017 já disponivel</h2>
+                        <h3 class="card-subtitle mb-2 text-muted">Card subtitle</h3>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <a href="index6.html" class="card-link">Veja mais<span class="hidden">Gabarito Enem 2017 já disponivel</span></a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm" id="noticia">
                 <div class="card" style="width: 20rem;">
                     <div class="card-body">
-                        <h4 class="card-title">Dicas de estudo para o enem</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <h2 class="card-title">Dicas de estudo para o enem</h2>
+                        <h3 class="card-subtitle mb-2 text-muted">Card subtitle</h3>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <a href="index7.html" class="card-link">Veja mais<span class="hidden"> Dicas de estudo para o enem</span></a> 
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
 
 </body>
 

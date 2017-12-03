@@ -13,3 +13,7 @@ html {
     margin-bottom: 10px; /* Added */
     padding: 10px;
 }
+
+.hidden{
+	display: none;
+}
