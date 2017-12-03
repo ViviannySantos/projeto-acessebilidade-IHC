@@ -1,0 +1,15 @@
+html {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+  }
+
+.title-font {
+    font-family: 'Bree Serif', serif;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    padding: 10px;
+}
